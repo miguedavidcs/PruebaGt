@@ -1,0 +1,38 @@
+$ git init
+Initialized empty Git repository in C:/Users/..../Curso.Prep.Henry-master/Curso.Prep.Henry-master/.git/
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-master (master)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+...
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-master (master)
+$ git config --global user.email midacasa17@gmail.com
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-master (master)
+$ git config --global user.name miguedavidcs
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-master (master)
+$ git commit -m "first commit"
+[master (root-commit) 3f60852] first commit
+ 103 files changed, 14782 insertions(+)
+ 
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-master (master)
+$ git branch -M main
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-master (master)
+$ git remote add origin https://github.com/miguedavidcs/SoyHenrry.git
+
+Usuario@DESKTOP-L662BJ1 MINGW64 ~.../Curso.Prep.Henry-master/Curso.Prep.Henry-... (....)
+$ git push -u origin main
+Enumerating objects: 147, done.
+Counting objects: 100% (147/147), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (132/132), done.
+Writing objects: 100% (147/147), 2.30 MiB | 1.78 MiB/s, done.
+Total 147 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/miguedavidcs/SoyHenrry.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
